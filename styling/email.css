@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0A2463;
+}
+
+header {
+    background-color: #1E1B18;
+    width: 100%;
+    height: 7.063em;
+    position: fixed;
+    z-index: 999;
+}
+
+.logo {
+    color: white;
+    text-align: left;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+    display: flex;
+}
+
+.links a {
+    color: white;
+    display: flex;
+    text-align: right;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 3.438rem;
+    list-style-type: none;
+    font-size: 2em;
+    padding: 0.5rem 4.375rem;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.BigContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.BigBox {
+    width: 33rem;
+    height: 50rem;
+    background-color: #FFDD00;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin-top: 10rem;
+}
+
+.greeter {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: xxx-large;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.nameBox {
+    background-color: black;
+    color: white;
+    width: 13rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.nameWrap {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.emailBox {
+    background-color: black;
+    color: white;
+    width: 13rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.emailWrap {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.messageWrap {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+}
+
+.messageBox {
+    background-color: black;
+    color: white;
+    width: 22rem;
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.txtBox {
+    height: 10rem;
+    width: 19rem;
+    border-radius: 10px;
+}
+
+.nameBorder {
+    border-radius: 10px;
+}
+
+.emailBorder {
+    border-radius: 10px;
+}
+
+.Botao {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.Botao:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-width: 2.9px;
+}
